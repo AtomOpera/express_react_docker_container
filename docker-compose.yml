@@ -7,6 +7,10 @@ services:
     volumes:
       - /app/node_modules
       - ./server:/app
+    # expose:
+    #   - 5000:5000
+    ports:
+      - "5000:5000"
   client:
     stdin_open: true
     build:
@@ -15,3 +19,7 @@ services:
     volumes:
       - /app/node_modules
       - ./client:/app
+    # expose:
+    #   - 5173:5173
+    ports:
+      - "5173:5173"
