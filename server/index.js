@@ -30,5 +30,5 @@ app.get('/articles', (req, res) => {
 })
 
 app.listen(PORT, err => {
-  console.log(`...listening for requests on port ${PORT}`);
+  console.log(`...server is listening on port ${PORT}`);
 });
