@@ -1,5 +1,7 @@
 ## To run this project execute following commands in order
 
+more info here: [https://sweetcode.io/how-to-deploy-react-js-and-node-js-dockerized-containers-to-kubernetes-cluster/](Deploy React.js and Node.js Dockerized)
+
 ```javascript
 cd server / cd client
 yarn / yarn install
